@@ -5,3 +5,4 @@ el envio de mensajes en un chat de todos los usuarios registrados en el sistema.
 
 link de la aplicacion funcionando 
 
+https://youtu.be/4VB0lghXzcY
