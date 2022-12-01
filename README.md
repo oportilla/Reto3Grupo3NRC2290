@@ -1,16 +1,7 @@
-# chat_firebase1
+PROYECTO RETO 3 GRUPO 3 NRC 2290
 
-A new Flutter project.
+El proyecto consiste en un Chat Grupal, el cual permite registrar y logearse para 
+el envio de mensajes en un chat de todos los usuarios registrados en el sistema.
 
-## Getting Started
+link de la aplicacion funcionando 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
