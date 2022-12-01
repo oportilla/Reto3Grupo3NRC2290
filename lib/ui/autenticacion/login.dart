@@ -23,7 +23,7 @@ class _LoginState extends State<Login> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('Ingresar a WaChat'),
+              const Text('Chat-GR3'),
               const SizedBox(
                 height: 10,
               ),
@@ -57,6 +57,7 @@ class _LoginState extends State<Login> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   OutlinedButton(
+                     
                       onPressed: () {
                         ca.ingresarEmail(email.text, passw.text).then((value) {
                           if (ca.emailr != "") {
@@ -80,9 +81,11 @@ class _LoginState extends State<Login> {
                           ));
                         });
                       },
+                      
                       child: const Text('Ingresar')),
                   OutlinedButton(
                       onPressed: () {
+                        if (nu.text!=""){
                         ca
                             .addUser(email.text, passw.text, nu.text)
                             .then((value) {
@@ -106,6 +109,16 @@ class _LoginState extends State<Login> {
                             backgroundColor: Colors.blue,
                           ));
                         });
+                      } else{
+                        Get.showSnackbar(const GetSnackBar(
+                              title: 'Validacion de Usuarios',
+                              message: 'Nombre requerido',
+                              icon: Icon(Icons.warning),
+                              duration: Duration(seconds: 5),
+                              backgroundColor: Colors.blue,
+                            ));
+
+                      }
                       },
                       child: const Text('Registrarse'))
                 ],

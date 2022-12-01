@@ -19,7 +19,7 @@ class _SalaChatState extends State<SalaChat> {
     ControlChat cc = Get.find();
     return Scaffold(
       appBar: AppBar(
-        title: Text('WaCHAT - ${ca.emailr}'),
+        title: Text('CHAT-GR3 - ${ca.emailr}'),
        
       ),
       body: Padding(

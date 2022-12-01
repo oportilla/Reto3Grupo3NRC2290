@@ -18,7 +18,7 @@ class _ListarUsuariosState extends State<ListarUsuarios> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Lista de Contactos'),
+          title: const Text('Lista de Contactos Chat-GR3'),
           actions: [
             IconButton(
                 onPressed: () {
@@ -40,7 +40,7 @@ class _ListarUsuariosState extends State<ListarUsuarios> {
                   itemCount: resultado.data!.docs.length,
                   itemBuilder: (context, i) {
                     return Card(
-                      color: Colors.amber,
+                      color: Colors.blueAccent,
                       child: ListTile(
                         leading: CircleAvatar(
                           child: Text(resultado.data!.docs[i]
